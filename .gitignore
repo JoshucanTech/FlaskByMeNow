@@ -1,0 +1,54 @@
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+
+# Flask-Specific
+instance/
+*.db
+*.sqlite3
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs and Debugging Files
+*.log
+*.pot
+*.py[co]
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Testing and Coverage
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.egg-info/
+
+# Pip and Dependencies now
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+__pycache__/
+
+# Migrations
+migrations/
+
+# Files for Docker (if applicable)
+*.dockerignore
+docker-compose.override.yml
